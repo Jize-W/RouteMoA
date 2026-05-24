@@ -178,7 +178,7 @@ deepseek-ai/DeepSeek-V3-0324,deepseek-v3-0324,,0.28,1.14,openai,https://api.deep
 
 **c) 下载路由模型权重**（仅 RouteMoA 需要）：
 
-从 [Google Drive](YOUR_GOOGLE_DRIVE_LINK_HERE) 下载 `router_large.pth`，并将其放置到：
+从 [Google Drive](https://drive.google.com/file/d/1ixpMzKtw52OIG3pJKviY19iW29BGJHpx/view?usp=drive_link) 下载 `router_large.pth`，并将其放置到：
 ```
 emoa_large/weights/router_large.pth
 ```
