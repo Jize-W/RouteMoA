@@ -104,7 +104,9 @@ bash lmdeploy.sh
 
 接下来，我们需要配置路由模型并启动核心服务。
 
-1. 从 [Google Drive](https://drive.google.com/file/d/1cMntfcUJ6mKf5a2bsgwwWo4ehCLWqAuw/view?usp=drive_link) **下载 Router 检查点（Checkpoint）**。
+1. 从以下任一链接**下载 Router 权重**：
+   - [GitHub Release](https://github.com/Jize-W/RouteMoA/releases/download/weights-v1/router_small.pth)
+   - [Google Drive](https://drive.google.com/file/d/1cMntfcUJ6mKf5a2bsgwwWo4ehCLWqAuw/view?usp=drive_link)
 2. 将下载好的文件放置在本地的 `checkpoints/` 目录下。
 3. **下载路由骨干网络** (`mdeberta-v3-base`)，你可以在微软的官方仓库找到它：
    - 模型权重地址：[microsoft/mdeberta-v3-base](https://huggingface.co/microsoft/mdeberta-v3-base)
@@ -178,7 +180,7 @@ deepseek-ai/DeepSeek-V3-0324,deepseek-v3-0324,,0.28,1.14,openai,https://api.deep
 
 **c) 下载路由模型权重**（仅 RouteMoA 需要）：
 
-从 [Google Drive](https://drive.google.com/file/d/1ixpMzKtw52OIG3pJKviY19iW29BGJHpx/view?usp=drive_link) 下载 `router_large.pth`，并将其放置到：
+从 [GitHub Release](https://github.com/Jize-W/RouteMoA/releases/download/weights-v1/router_large.pth) 或 [Google Drive](https://drive.google.com/file/d/1ixpMzKtw52OIG3pJKviY19iW29BGJHpx/view?usp=drive_link) 下载 `router_large.pth`，并将其放置到：
 ```
 emoa_large/weights/router_large.pth
 ```
@@ -268,7 +270,7 @@ python evaluate.py \
 
 我们的路由训练代码构建在 [RouterDC](https://github.com/shuhao02/RouterDC) 框架之上。
 
-你可以参考 RouterDC 仓库中的说明，使用你自己的数据来训练专属的 Router。目前，我们已经开源了训练好的 Router Checkpoint，RouteMoA 完整的训练代码也将在未来逐步开源发布。
+你可以参考 RouterDC 仓库中的说明，使用你自己的数据来训练专属的 Router。目前，我们已经开源了训练好的 Router 权重，你也可以参考我们训练的方法，在这个文件夹中 [Router](./router)
 
 ---
 

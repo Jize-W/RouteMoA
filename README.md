@@ -105,8 +105,10 @@ bash lmdeploy.sh
 
 Next, set up the router and launch the core services.
 
-1. **Download the Router checkpoint** from [Google Drive](https://drive.google.com/file/d/1cMntfcUJ6mKf5a2bsgwwWo4ehCLWqAuw/view?usp=sharing).
-2. Place the downloaded checkpoint into your local `checkpoints/` directory.
+1. **Download the router weights** from either of these links:
+   - [GitHub Release](https://github.com/Jize-W/RouteMoA/releases/download/weights-v1/router_small.pth)
+   - [Google Drive](https://drive.google.com/file/d/1cMntfcUJ6mKf5a2bsgwwWo4ehCLWqAuw/view?usp=sharing)
+2. Place the downloaded weights into your local `checkpoints/` directory.
 3. **Download the router backbone** (`mdeberta-v3-base`) from the official Microsoft project:
    - Model weights: [microsoft/mdeberta-v3-base](https://huggingface.co/microsoft/mdeberta-v3-base)
    - Or simply use the CLI:
@@ -114,7 +116,7 @@ Next, set up the router and launch the core services.
    huggingface-cli download microsoft/mdeberta-v3-base --local-dir </path/to/mdeberta-v3-base>
    ```
 4. **Update the config file** (`emoa/configs/emoa_v2.json`):
-   - Set `router_pth_path` to the absolute path of your downloaded Router checkpoint.
+   - Set `router_pth_path` to the absolute path of your downloaded router weights.
    - Set `router_backbone` to the absolute path of your `mdeberta-v3-base` folder.
 
 Now, start the services:
@@ -179,7 +181,7 @@ You do not need to populate all 15 models — only configure the models you plan
 
 **c) Download the router weights** (required for RouteMoA only):
 
-Download `router_large.pth` from [Google Drive](https://drive.google.com/file/d/1ixpMzKtw52OIG3pJKviY19iW29BGJHpx/view?usp=drive_link) and place it at:
+Download `router_large.pth` from [GitHub Release](https://github.com/Jize-W/RouteMoA/releases/download/weights-v1/router_large.pth) or [Google Drive](https://drive.google.com/file/d/1ixpMzKtw52OIG3pJKviY19iW29BGJHpx/view?usp=drive_link), then place it at:
 ```
 emoa_large/weights/router_large.pth
 ```
@@ -267,9 +269,9 @@ The script prints per-dataset scores, category averages, and a global average to
 
 ## Router Training
 
-Our router training pipeline is built on top of [RouterDC](https://github.com/shuhao02/RouterDC).
+Our router training code is built on top of the [RouterDC](https://github.com/shuhao02/RouterDC) framework.
 
-You can train your own router using custom data by following the instructions provided in the RouterDC repository. We have currently released the pre-trained checkpoint of our router, and the full training code tailored for RouteMoA will be released in the future.
+You can refer to the instructions in the RouterDC repository to train your own Router with your own data. Currently, we have already released the trained router weights, and you can also refer to our training method in this folder [Router](./router).
 
 ---
 
