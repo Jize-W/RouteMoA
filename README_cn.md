@@ -115,7 +115,7 @@ bash lmdeploy.sh
    huggingface-cli download microsoft/mdeberta-v3-base --local-dir </path/to/mdeberta-v3-base>
    ```
 4. **更新配置文件** (`emoa/configs/emoa_v2.json`)：
-   - 将 `router_pth_path` 修改为你下载的 Router Checkpoint 的**绝对路径**。
+   - 将 `router_pth_path` 修改为你下载的 Router 权重的**绝对路径**。
    - 将 `router_backbone` 修改为 `mdeberta-v3-base` 文件夹的**绝对路径**。
 
 现在，可以启动服务了：

@@ -1,0 +1,252 @@
+[
+  {
+    "question": "Glucose is transported into the muscle cell:\n\nA) via protein transporters called GLUT4.\nB) only in the presence of insulin.\nC) via hexokinase.\nD) via monocarbylic acid transporters.\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -1.46328125,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 2.0984375,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -1.1203125,
+      "mistralai/Ministral-8B-Instruct-2410": 2.3796875,
+      "google/gemma-2-9b-it": 2.3671875
+    }
+  },
+  {
+    "question": "Which of the following is not a true statement?\n\nA) Muscle glycogen is broken down enzymatically to glucose-1-phosphate\nB) Elite endurance runners have a high proportion of Type I fibres in their leg muscles\nC) Liver glycogen is important in the maintenance of the blood glucose concentration\nD) Insulin promotes glucose uptake by all tissues in the body\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -0.953125,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 1.7140625,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -1.2578125,
+      "mistralai/Ministral-8B-Instruct-2410": 1.6265625,
+      "google/gemma-2-9b-it": 1.93125
+    }
+  },
+  {
+    "question": "In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?\n\nA) All descendants on the maternal side will have the disorder.\nB) Females will be approximately twice as affected as males in this family.\nC) All daughters of an affected male will be affected.\nD) There will be equal distribution of males and females affected.\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -1.40625,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 1.7359375,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -1.11015625,
+      "mistralai/Ministral-8B-Instruct-2410": 0.915625,
+      "google/gemma-2-9b-it": 1.909375
+    }
+  },
+  {
+    "question": "A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25°C. Which two variables will both increase the pressure of the system, if all other variables are held constant?\n\nA) Increasing temperature, increasing moles of gas\nB) Increasing temperature, increasing volume\nC) Decreasing volume, decreasing temperature\nD) Decreasing moles of gas, increasing volume\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -1.501953125,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 1.41015625,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -1.0921875,
+      "mistralai/Ministral-8B-Instruct-2410": 1.9375,
+      "google/gemma-2-9b-it": 2.115625
+    }
+  },
+  {
+    "question": "An expected side effect of creatine supplementation is:\n\nA) muscle weakness.\nB) gain in body mass.\nC) muscle cramps.\nD) loss of electrolytes.\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -1.3546875,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 1.834375,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -1.053125,
+      "mistralai/Ministral-8B-Instruct-2410": 1.3203125,
+      "google/gemma-2-9b-it": 1.296875
+    }
+  },
+  {
+    "question": "Large triplet repeat expansions can be detected by:\n\nA) polymerase chain reaction.\nB) single strand conformational polymorphism analysis.\nC) Southern blotting.\nD) Western blotting.\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -1.01875,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 1.7578125,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -1.38359375,
+      "mistralai/Ministral-8B-Instruct-2410": 1.321875,
+      "google/gemma-2-9b-it": 2.26875
+    }
+  },
+  {
+    "question": "DNA ligase is\n\nA) an enzyme that joins fragments in normal DNA replication\nB) an enzyme of bacterial origin which cuts DNA at defined base sequences\nC) an enzyme that facilitates transcription of specific genes\nD) an enzyme which limits the level to which a particular nutrient reaches\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -0.6376953125,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 1.3390625,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -1.35546875,
+      "mistralai/Ministral-8B-Instruct-2410": 1.0537109375,
+      "google/gemma-2-9b-it": 1.546875
+    }
+  },
+  {
+    "question": "A gene showing codominance\n\nA) has both alleles independently expressed in the heterozygote\nB) has one allele dominant to the other\nC) has alleles tightly linked on the same chromosome\nD) has alleles expressed at the same time in development\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -1.5125,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 1.89375,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -1.5109375,
+      "mistralai/Ministral-8B-Instruct-2410": 1.646875,
+      "google/gemma-2-9b-it": 2.2734375
+    }
+  },
+  {
+    "question": "Which of the following conditions does not show multifactorial inheritance?\n\nA) Pyloric stenosis\nB) Schizophrenia\nC) Spina bifida (neural tube defects)\nD) Marfan syndrome\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -1.8125,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 1.6375,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -0.7265625,
+      "mistralai/Ministral-8B-Instruct-2410": 1.7890625,
+      "google/gemma-2-9b-it": 1.5875
+    }
+  },
+  {
+    "question": "The stage of meiosis in which chromosomes pair and cross over is:\n\nA) prophase I\nB) metaphase I\nC) prophase II\nD) metaphase II\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -1.30546875,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 1.730859375,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -1.309375,
+      "mistralai/Ministral-8B-Instruct-2410": 0.8546875,
+      "google/gemma-2-9b-it": 1.4453125
+    }
+  },
+  {
+    "question": "Which of the following represents an accurate statement concerning arthropods?\n\nA) They possess an exoskeleton composed primarily of peptidoglycan.\nB) They possess an open circulatory system with a dorsal heart.\nC) They are members of a biologically unsuccessful phylum incapable of exploiting diverse habitats and nutrition sources.\nD) They lack paired, jointed appendages.\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -1.17734375,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 1.1390625,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -0.7671875,
+      "mistralai/Ministral-8B-Instruct-2410": 1.934375,
+      "google/gemma-2-9b-it": 2.0609375
+    }
+  },
+  {
+    "question": "In a given population, 1 out of every 400 people has a cancer caused by a completely recessive allele, b. Assuming the population is in Hardy-Weinberg equilibrium, which of the following is the expected proportion of individuals who carry the b allele but are not expected to develop the cancer?\n\nA) 1/400\nB) 19/400\nC) 20/400\nD) 38/400\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -1.387109375,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 1.48125,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -0.709765625,
+      "mistralai/Ministral-8B-Instruct-2410": 0.8875,
+      "google/gemma-2-9b-it": 1.9609375
+    }
+  },
+  {
+    "question": "The presence of homologous structures in two different organisms, such as the humerus in the front limb of a human and a bird, indicates that\n\nA) the human and bird are polyphyletic species\nB) a human's and bird's evolution is convergent\nC) the human and bird belong to a clade\nD) the human and bird developed by analogy\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -1.7421875,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 1.7234375,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -1.0625,
+      "mistralai/Ministral-8B-Instruct-2410": 0.17197265625,
+      "google/gemma-2-9b-it": 1.4875
+    }
+  },
+  {
+    "question": "According to the pressure-flow model of movement of phloem contents, photosynthate movement from source to sink is driven by\n\nA) an ATP-dependent pressure-flow pump\nB) a water-pressure potential gradient\nC) transpiration\nD) apoplastic diffusion\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -1.790625,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 2.1546875,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -0.875,
+      "mistralai/Ministral-8B-Instruct-2410": 1.3546875,
+      "google/gemma-2-9b-it": 1.878125
+    }
+  },
+  {
+    "question": "Which of the following contain DNA sequences required for the segregation of chromosomes in mitosis and meiosis?\n\nA) Telomeres\nB) Centromeres\nC) Nucleosomes\nD) Spliceosomes\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -0.9375,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 2.109375,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -0.7890625,
+      "mistralai/Ministral-8B-Instruct-2410": 1.809375,
+      "google/gemma-2-9b-it": 2.0484375
+    }
+  },
+  {
+    "question": "What is the embryological origin of the hyoid bone?\n\nA) The first pharyngeal arch\nB) The first and second pharyngeal arches\nC) The second pharyngeal arch\nD) The second and third pharyngeal arches\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -1.7875,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 1.38984375,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -1.559375,
+      "mistralai/Ministral-8B-Instruct-2410": 1.10546875,
+      "google/gemma-2-9b-it": 1.6359375
+    }
+  },
+  {
+    "question": "Which of these branches of the trigeminal nerve contain somatic motor processes?\n\nA) The supraorbital nerve\nB) The infraorbital nerve\nC) The mental nerve\nD) None of the above\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -2.2625,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 1.234375,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -1.7484375,
+      "mistralai/Ministral-8B-Instruct-2410": 0.9404296875,
+      "google/gemma-2-9b-it": 1.346875
+    }
+  },
+  {
+    "question": "The pleura\n\nA) have no sensory innervation.\nB) are separated by a 2 mm space.\nC) extend into the neck.\nD) are composed of respiratory epithelium.\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -1.8703125,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.5154296875,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -1.3703125,
+      "mistralai/Ministral-8B-Instruct-2410": 0.55390625,
+      "google/gemma-2-9b-it": 1.07734375
+    }
+  },
+  {
+    "question": "In Angle's Class II Div 2 occlusion there is\n\nA) excess overbite of the upper lateral incisors.\nB) negative overjet of the upper central incisors.\nC) excess overjet of the upper lateral incisors.\nD) excess overjet of the upper central incisors.\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -1.8796875,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 1.0453125,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -1.2859375,
+      "mistralai/Ministral-8B-Instruct-2410": 1.4140625,
+      "google/gemma-2-9b-it": 1.5484375
+    }
+  },
+  {
+    "question": "Which of the following is the body cavity that contains the pituitary gland?\n\nA) Abdominal\nB) Cranial\nC) Pleural\nD) Spinal\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -0.99765625,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 1.54140625,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -1.12890625,
+      "mistralai/Ministral-8B-Instruct-2410": 1.653125,
+      "google/gemma-2-9b-it": 1.11875
+    }
+  },
+  {
+    "question": "The energy for all forms of muscle contraction is provided by:\n\nA) ATP.\nB) ADP.\nC) phosphocreatine.\nD) oxidative phosphorylation.\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -2.1171875,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 1.8375,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -1.47890625,
+      "mistralai/Ministral-8B-Instruct-2410": 1.059765625,
+      "google/gemma-2-9b-it": 1.478125
+    }
+  },
+  {
+    "question": "What is the difference between a male and a female catheter?\n\nA) Male and female catheters are different colours.\nB) Male catheters are longer than female catheters.\nC) Male catheters are bigger than female catheters.\nD) Female catheters are longer than male catheters.\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -1.64296875,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 1.3703125,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -1.27724609375,
+      "mistralai/Ministral-8B-Instruct-2410": 0.8234375,
+      "google/gemma-2-9b-it": 1.6609375
+    }
+  },
+  {
+    "question": "In the assessment of the hand function which of the following is true?\n\nA) Abduction of the thumb is supplied by spinal root T2\nB) Opposition of the thumb by opponens policis is supplied by spinal root T1\nC) Finger adduction is supplied by the median nerve\nD) Finger abduction is mediated by the palmar interossei\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -1.6984375,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.988916015625,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -1.3015625,
+      "mistralai/Ministral-8B-Instruct-2410": 1.1484375,
+      "google/gemma-2-9b-it": 1.1609375
+    }
+  },
+  {
+    "question": "How many attempts should you make to cannulate a patient before passing the job on to a senior colleague, according to the medical knowledge of 2020?\n\nA) 4\nB) 3\nC) 2\nD) 1\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -1.9578125,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 1.76875,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -0.48671875,
+      "mistralai/Ministral-8B-Instruct-2410": 1.70625,
+      "google/gemma-2-9b-it": 1.049609375
+    }
+  },
+  {
+    "question": "Glycolysis is the name given to the pathway involving the conversion of:\n\nA) glycogen to glucose-1-phosphate.\nB) glycogen or glucose to fructose.\nC) glycogen or glucose to pyruvate or lactate.\nD) glycogen or glucose to pyruvate or acetyl CoA.\n",
+    "scores": {
+      "Qwen/Qwen2.5-Math-7B-Instruct": -1.871875,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 1.59296875,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": -1.3796875,
+      "mistralai/Ministral-8B-Instruct-2410": 0.441796875,
+      "google/gemma-2-9b-it": 1.7109375
+    }
+  }
+]

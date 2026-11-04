@@ -1,0 +1,24 @@
+# Router / Scorer dependencies
+# Verified on Linux with Python 3.10 and CUDA 12.1 GPUs
+#
+# Install:
+#   conda create -n router python=3.10 -y && conda activate router
+#   pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+#
+# Notes:
+#   * the PyPI wheel of torch 2.4.1 bundles the CUDA 12.1 runtime (nvidia-* dependencies), usable on sm_80/sm_89/sm_90
+#   * numpy must be <2: torch 2.4 / sklearn 1.7 are both compiled against 1.x
+#   * protobuf is required by the DeBERTa-v2 fast tokenizer to convert the spm model, otherwise ImportError
+#   * without openTSNE, cluster_generate.py falls back to the sklearn t-SNE (much slower but does not fail)
+
+torch==2.4.1
+transformers==4.44.2
+tokenizers==0.19.1
+sentencepiece==0.2.2
+protobuf==4.25.3
+openTSNE==1.0.4
+scikit-learn==1.7.2
+numpy==1.26.4
+scipy==1.15.3
+matplotlib==3.10.9
+tqdm==4.70.1

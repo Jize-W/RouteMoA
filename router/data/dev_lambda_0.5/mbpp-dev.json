@@ -1,0 +1,432 @@
+[
+  {
+    "question": "Write a function to get the sum of the digits of a non-negative integer.\nYour code should pass these tests:\n\nassert sum_digits(345)==12\nassert sum_digits(12)==3\nassert sum_digits(97)==16",
+    "scores": {
+      "google/gemma-2-9b-it": 0.0,
+      "mistralai/Ministral-8B-Instruct-2410": 0.883984375,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.02421875000000001,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.934375,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.3849609375
+    }
+  },
+  {
+    "question": "Write a python function to find the last digit in factorial of a given number.\nYour code should pass these tests:\n\nassert last_Digit_Factorial(4) == 4\nassert last_Digit_Factorial(21) == 0\nassert last_Digit_Factorial(30) == 0",
+    "scores": {
+      "google/gemma-2-9b-it": 0.07216796874999998,
+      "mistralai/Ministral-8B-Instruct-2410": 0.2513671875,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.05546875000000001,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0
+    }
+  },
+  {
+    "question": "Write a python function which takes a list of integers and counts the number of possible unordered pairs where both elements are unequal.\nYour code should pass these tests:\n\nassert count_Pairs([1,2,1],3) == 2\nassert count_Pairs([1,1,1,1],4) == 0\nassert count_Pairs([1,2,3,4,5],5) == 10",
+    "scores": {
+      "google/gemma-2-9b-it": 0.370947265625,
+      "mistralai/Ministral-8B-Instruct-2410": 0.04921874999999998,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.0,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0
+    }
+  },
+  {
+    "question": "Write a function to find perfect squares between two given numbers.\nYour code should pass these tests:\n\nassert perfect_squares(1,30)==[1, 4, 9, 16, 25]\nassert perfect_squares(50,100)==[64, 81, 100]\nassert perfect_squares(100,200)==[100, 121, 144, 169, 196]",
+    "scores": {
+      "google/gemma-2-9b-it": 0.98203125,
+      "mistralai/Ministral-8B-Instruct-2410": 0.68251953125,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.10419921875,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.1962890625
+    }
+  },
+  {
+    "question": "Write a function to extract values between quotation marks from a string.\nYour code should pass these tests:\n\nassert extract_values('\"Python\", \"PHP\", \"Java\"')==['Python', 'PHP', 'Java']\nassert extract_values('\"python\",\"program\",\"language\"')==['python','program','language']\nassert extract_values('\"red\",\"blue\",\"green\",\"yellow\"')==['red','blue','green','yellow']",
+    "scores": {
+      "google/gemma-2-9b-it": 0.025830078125,
+      "mistralai/Ministral-8B-Instruct-2410": 0.365625,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.972265625,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.05
+    }
+  },
+  {
+    "question": "Write a python function to find the surface area of a square pyramid with a given base edge and height.\nYour code should pass these tests:\n\nassert surface_Area(3,4) == 33\nassert surface_Area(4,5) == 56\nassert surface_Area(1,2) == 5",
+    "scores": {
+      "google/gemma-2-9b-it": 0.334375,
+      "mistralai/Ministral-8B-Instruct-2410": 0.0,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.0,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0
+    }
+  },
+  {
+    "question": "Write a function to find the n most expensive items in a given dataset.\nYour code should pass these tests:\n\nassert expensive_items([{'name': 'Item-1', 'price': 101.1},{'name': 'Item-2', 'price': 555.22}],1)==[{'name': 'Item-2', 'price': 555.22}]\nassert expensive_items([{'name': 'Item-1', 'price': 101.1},{'name': 'Item-2', 'price': 555.22}, {'name': 'Item-3', 'price': 45.09}],2)==[{'name': 'Item-2', 'price': 555.22},{'name': 'Item-1', 'price': 101.1}]\nassert expensive_items([{'name': 'Item-1', 'price': 101.1},{'name': 'Item-2', 'price': 555.22}, {'name': 'Item-3', 'price': 45.09},{'name': 'Item-4', 'price': 22.75}],1)==[{'name': 'Item-2', 'price': 555.22}]",
+    "scores": {
+      "google/gemma-2-9b-it": 1.0,
+      "mistralai/Ministral-8B-Instruct-2410": 0.8494140625,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.5296875,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.1591796875
+    }
+  },
+  {
+    "question": "Write a function to interleave 3 lists of the same length into a single flat list.\nYour code should pass these tests:\n\nassert interleave_lists([1,2,3,4,5,6,7],[10,20,30,40,50,60,70],[100,200,300,400,500,600,700])==[1, 10, 100, 2, 20, 200, 3, 30, 300, 4, 40, 400, 5, 50, 500, 6, 60, 600, 7, 70, 700]\nassert interleave_lists([10,20],[15,2],[5,10])==[10,15,5,20,2,10]\nassert interleave_lists([11,44], [10,15], [20,5])==[11,10,20,44,15,5]",
+    "scores": {
+      "google/gemma-2-9b-it": 0.515234375,
+      "mistralai/Ministral-8B-Instruct-2410": 0.0,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.209576416015625,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0
+    }
+  },
+  {
+    "question": "Write a function to convert polar coordinates to rectangular coordinates.\nYour code should pass these tests:\n\nassert polar_rect(3,4)==((5.0, 0.9272952180016122), (-2+2.4492935982947064e-16j))\nassert polar_rect(4,7)==((8.06225774829855, 1.0516502125483738), (-2+2.4492935982947064e-16j))\nassert polar_rect(15,17)==((22.67156809750927, 0.8478169733934057), (-2+2.4492935982947064e-16j))",
+    "scores": {
+      "google/gemma-2-9b-it": 0.375390625,
+      "mistralai/Ministral-8B-Instruct-2410": 0.0,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.0,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0
+    }
+  },
+  {
+    "question": "Write a function to toggle the case of all characters in a string.\nYour code should pass these tests:\n\nassert toggle_string(\"Python\")==(\"pYTHON\")\nassert toggle_string(\"Pangram\")==(\"pANGRAM\")\nassert toggle_string(\"LIttLE\")==(\"liTTle\")",
+    "scores": {
+      "google/gemma-2-9b-it": 1.0,
+      "mistralai/Ministral-8B-Instruct-2410": 0.746923828125,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.68720703125,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.16953125,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0
+    }
+  },
+  {
+    "question": "Write a function to check if a dictionary is empty\nYour code should pass these tests:\n\nassert my_dict({10})==False\nassert my_dict({11})==False\nassert my_dict({})==True",
+    "scores": {
+      "google/gemma-2-9b-it": 0.60537109375,
+      "mistralai/Ministral-8B-Instruct-2410": 0.46171875,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.05781249999999999,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.012500000000000011,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0
+    }
+  },
+  {
+    "question": "Write a python function to find the difference between largest and smallest value in a given list.\nYour code should pass these tests:\n\nassert big_diff([1,2,3,4]) == 3\nassert big_diff([4,5,12]) == 8\nassert big_diff([9,2,3]) == 7",
+    "scores": {
+      "google/gemma-2-9b-it": 0.308984375,
+      "mistralai/Ministral-8B-Instruct-2410": 0.24814453125000002,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.2767578125,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.3193359375,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0
+    }
+  },
+  {
+    "question": "Write a function to find the first adverb ending with ly and its positions in a given string.\nYour code should pass these tests:\n\nassert find_adverbs(\"Clearly, he has no excuse for such behavior.\") == '0-7: Clearly'\nassert find_adverbs(\"Please handle the situation carefuly\") == '28-36: carefuly'\nassert find_adverbs(\"Complete the task quickly\") == '18-25: quickly'",
+    "scores": {
+      "google/gemma-2-9b-it": 0.8796875,
+      "mistralai/Ministral-8B-Instruct-2410": 0.219873046875,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.0,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.22080078125
+    }
+  },
+  {
+    "question": "Write a python function to remove duplicate numbers from a given number of lists.\nYour code should pass these tests:\n\nassert two_unique_nums([1,2,3,2,3,4,5]) == [1, 4, 5]\nassert two_unique_nums([1,2,3,2,4,5]) == [1, 3, 4, 5]\nassert two_unique_nums([1,2,3,4,5]) == [1, 2, 3, 4, 5]",
+    "scores": {
+      "google/gemma-2-9b-it": 0.0,
+      "mistralai/Ministral-8B-Instruct-2410": 0.0,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.0,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0
+    }
+  },
+  {
+    "question": "Write a function to remove uneven elements in the nested mixed tuple.\nYour code should pass these tests:\n\nassert extract_even((4, 5, (7, 6, (2, 4)), 6, 8)) == (4, (6, (2, 4)), 6, 8)\nassert extract_even((5, 6, (8, 7, (4, 8)), 7, 9)) == (6, (8, (4, 8)))\nassert extract_even((5, 6, (9, 8, (4, 6)), 8, 10)) == (6, (8, (4, 6)), 8, 10)",
+    "scores": {
+      "google/gemma-2-9b-it": 0.0,
+      "mistralai/Ministral-8B-Instruct-2410": 0.11392822265625,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.0,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0
+    }
+  },
+  {
+    "question": "Write a python function to split a string into characters.\nYour code should pass these tests:\n\nassert split('python') == ['p','y','t','h','o','n']\nassert split('Name') == ['N','a','m','e']\nassert split('program') == ['p','r','o','g','r','a','m']",
+    "scores": {
+      "google/gemma-2-9b-it": 0.678662109375,
+      "mistralai/Ministral-8B-Instruct-2410": 0.7905029296875,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.43291015625,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.5849609375
+    }
+  },
+  {
+    "question": "Write a function to sort each sublist of strings in a given list of lists.\nYour code should pass these tests:\n\nassert sort_sublists([['green', 'orange'], ['black', 'white'], ['white', 'black', 'orange']])==[['green', 'orange'], ['black', 'white'], ['black', 'orange', 'white']]\nassert sort_sublists([['green', 'orange'], ['black'], ['green', 'orange'], ['white']])==[['green', 'orange'], ['black'], ['green', 'orange'], ['white']]\nassert sort_sublists([['a','b'],['d','c'],['g','h'] , ['f','e']])==[['a', 'b'], ['c', 'd'], ['g', 'h'], ['e', 'f']]",
+    "scores": {
+      "google/gemma-2-9b-it": 0.0,
+      "mistralai/Ministral-8B-Instruct-2410": 0.94814453125,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.31787109375,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.15292968750000002,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0
+    }
+  },
+  {
+    "question": "Write a python function to split a list at the nth eelment and add the first part to the end.\nYour code should pass these tests:\n\nassert split_Arr([12,10,5,6,52,36],2) == [5,6,52,36,12,10]\nassert split_Arr([1,2,3,4],1) == [2,3,4,1]\nassert split_Arr([0,1,2,3,4,5,6,7],3) == [3,4,5,6,7,0,1,2]",
+    "scores": {
+      "google/gemma-2-9b-it": 1.0,
+      "mistralai/Ministral-8B-Instruct-2410": 1.0,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.2781867980957031,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 1.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.28583984375
+    }
+  },
+  {
+    "question": "Write a function to find the dissimilar elements in the given two tuples.\nYour code should pass these tests:\n\nassert find_dissimilar((3, 4, 5, 6), (5, 7, 4, 10)) == (3, 6, 7, 10)\nassert find_dissimilar((1, 2, 3, 4), (7, 2, 3, 9)) == (1, 4, 7, 9)\nassert find_dissimilar((21, 11, 25, 26), (26, 34, 21, 36)) == (34, 36, 11, 25)",
+    "scores": {
+      "google/gemma-2-9b-it": 0.16474609375,
+      "mistralai/Ministral-8B-Instruct-2410": 0.0,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.0,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0
+    }
+  },
+  {
+    "question": "Write a python function to interchange the first and last elements in a list.\nYour code should pass these tests:\n\nassert swap_List([12, 35, 9, 56, 24]) == [24, 35, 9, 56, 12]\nassert swap_List([1, 2, 3]) == [3, 2, 1]\nassert swap_List([4, 5, 6]) == [6, 5, 4]",
+    "scores": {
+      "google/gemma-2-9b-it": 1.0,
+      "mistralai/Ministral-8B-Instruct-2410": 1.0,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.775390625,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.6109375,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.28505859375
+    }
+  },
+  {
+    "question": "Write a python function to count minimum number of swaps required to convert one binary number represented as a string to another.\nYour code should pass these tests:\n\nassert min_Swaps(\"1101\",\"1110\") == 1\nassert min_Swaps(\"111\",\"000\") == \"Not Possible\"\nassert min_Swaps(\"111\",\"110\") == \"Not Possible\"",
+    "scores": {
+      "google/gemma-2-9b-it": 0.55498046875,
+      "mistralai/Ministral-8B-Instruct-2410": 0.395703125,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.40345458984375,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.3245849609375
+    }
+  },
+  {
+    "question": "Write a function to check whether the given number is armstrong or not.\nYour code should pass these tests:\n\nassert armstrong_number(153)==True\nassert armstrong_number(259)==False\nassert armstrong_number(4458)==False",
+    "scores": {
+      "google/gemma-2-9b-it": 1.0,
+      "mistralai/Ministral-8B-Instruct-2410": 0.373681640625,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.462841796875,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0
+    }
+  },
+  {
+    "question": "Write a python function which takes a list of integers and only returns the odd ones.\nYour code should pass these tests:\n\nassert Split([1,2,3,4,5,6]) == [1,3,5]\nassert Split([10,11,12,13]) == [11,13]\nassert Split([7,8,9,1]) == [7,9,1]",
+    "scores": {
+      "google/gemma-2-9b-it": 0.75166015625,
+      "mistralai/Ministral-8B-Instruct-2410": 0.7013916015625,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.49544677734375,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.4755859375,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.089453125
+    }
+  },
+  {
+    "question": "Write a function to find sum and average of first n natural numbers.\nYour code should pass these tests:\n\nassert sum_average(10)==(55, 5.5)\nassert sum_average(15)==(120, 8.0)\nassert sum_average(20)==(210, 10.5)",
+    "scores": {
+      "google/gemma-2-9b-it": 0.4505859375,
+      "mistralai/Ministral-8B-Instruct-2410": 0.37119140625,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.0,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.19576187133789064,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0
+    }
+  },
+  {
+    "question": "Write a python function to find the difference between the sum of cubes of the first n natural numbers and the sum of the first n natural numbers.\nYour code should pass these tests:\n\nassert difference(3) == 30\nassert difference(5) == 210\nassert difference(2) == 6",
+    "scores": {
+      "google/gemma-2-9b-it": 0.91669921875,
+      "mistralai/Ministral-8B-Instruct-2410": 0.541796875,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.3177734375,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.6767578125,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0148681640625
+    }
+  },
+  {
+    "question": "Write a python function to find the length of the longest sublists.\nYour code should pass these tests:\n\nassert Find_Max_Length([[1],[1,4],[5,6,7,8]]) == 4\nassert Find_Max_Length([[0,1],[2,2,],[3,2,1]]) == 3\nassert Find_Max_Length([[7],[22,23],[13,14,15],[10,20,30,40,50]]) == 5",
+    "scores": {
+      "google/gemma-2-9b-it": 0.0,
+      "mistralai/Ministral-8B-Instruct-2410": 0.125,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.0,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0
+    }
+  },
+  {
+    "question": "Write a function to find the size in bytes of the given tuple.\nYour code should pass these tests:\n\nassert tuple_size((\"A\", 1, \"B\", 2, \"C\", 3) ) == sys.getsizeof((\"A\", 1, \"B\", 2, \"C\", 3))\nassert tuple_size((1, \"Raju\", 2, \"Nikhil\", 3, \"Deepanshu\") ) == sys.getsizeof((1, \"Raju\", 2, \"Nikhil\", 3, \"Deepanshu\"))\nassert tuple_size(((1, \"Lion\"), ( 2, \"Tiger\"), (3, \"Fox\"), (4, \"Wolf\"))  ) == sys.getsizeof(((1, \"Lion\"), ( 2, \"Tiger\"), (3, \"Fox\"), (4, \"Wolf\")))",
+    "scores": {
+      "google/gemma-2-9b-it": 0.3791015625,
+      "mistralai/Ministral-8B-Instruct-2410": 0.6703125,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.09101562499999999,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.4681640625,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0
+    }
+  },
+  {
+    "question": "Write a function to find the surface area of a cylinder.\nYour code should pass these tests:\n\nassert surfacearea_cylinder(10,5)==942.45\nassert surfacearea_cylinder(4,5)==226.18800000000002\nassert surfacearea_cylinder(4,10)==351.848",
+    "scores": {
+      "google/gemma-2-9b-it": 0.222833251953125,
+      "mistralai/Ministral-8B-Instruct-2410": 0.318359375,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.0,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0
+    }
+  },
+  {
+    "question": "Write a function to find kth element from the given two sorted arrays.\nYour code should pass these tests:\n\nassert find_kth([2, 3, 6, 7, 9], [1, 4, 8, 10], 5) == 6\nassert find_kth([100, 112, 256, 349, 770], [72, 86, 113, 119, 265, 445, 892], 7) == 256\nassert find_kth([3, 4, 7, 8, 10], [2, 5, 9, 11], 6) == 8",
+    "scores": {
+      "google/gemma-2-9b-it": 1.0,
+      "mistralai/Ministral-8B-Instruct-2410": 0.9669921875,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.8580078125,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.21220703125,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.57247314453125
+    }
+  },
+  {
+    "question": "Write a function to find the union of the elements of two given tuples and output them in sorted order.\nYour code should pass these tests:\n\nassert union_elements((3, 4, 5, 6),(5, 7, 4, 10) ) == (3, 4, 5, 6, 7, 10)\nassert union_elements((1, 2, 3, 4),(3, 4, 5, 6) ) == (1, 2, 3, 4, 5, 6)\nassert union_elements((11, 12, 13, 14),(13, 15, 16, 17) ) == (11, 12, 13, 14, 15, 16, 17)",
+    "scores": {
+      "google/gemma-2-9b-it": 0.901953125,
+      "mistralai/Ministral-8B-Instruct-2410": 0.40888671875,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.37744140625,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0
+    }
+  },
+  {
+    "question": "Write a function to check whether a specified list is sorted or not.\nYour code should pass these tests:\n\nassert issort_list([1,2,4,6,8,10,12,14,16,17])==True\nassert issort_list([1, 2, 4, 6, 8, 10, 12, 14, 20, 17])==False\nassert issort_list([1, 2, 4, 6, 8, 10,15,14,20])==False",
+    "scores": {
+      "google/gemma-2-9b-it": 0.311328125,
+      "mistralai/Ministral-8B-Instruct-2410": 0.98359375,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 1.0,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.52890625
+    }
+  },
+  {
+    "question": "Write a function to find the difference of the first even and first odd number of a given list.\nYour code should pass these tests:\n\nassert diff_even_odd([1,3,5,7,4,1,6,8])==3\nassert diff_even_odd([1,2,3,4,5,6,7,8,9,10])==1\nassert diff_even_odd([1,5,7,9,10])==9",
+    "scores": {
+      "google/gemma-2-9b-it": 0.2921875,
+      "mistralai/Ministral-8B-Instruct-2410": 0.7752716064453125,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.21220703125,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0
+    }
+  },
+  {
+    "question": "Write a python function to count the number of pairs whose xor value is odd.\nYour code should pass these tests:\n\nassert find_Odd_Pair([5,4,7,2,1],5) == 6\nassert find_Odd_Pair([7,2,8,1,0,5,11],7) == 12\nassert find_Odd_Pair([1,2,3],3) == 2",
+    "scores": {
+      "google/gemma-2-9b-it": 0.95615234375,
+      "mistralai/Ministral-8B-Instruct-2410": 0.36473388671875,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.230712890625,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.447412109375
+    }
+  },
+  {
+    "question": "Write a python function to calculate the product of the unique numbers in a given list.\nYour code should pass these tests:\n\nassert unique_product([10, 20, 30, 40, 20, 50, 60, 40]) ==  720000000\nassert unique_product([1, 2, 3, 1,]) == 6\nassert unique_product([7, 8, 9, 0, 1, 1]) == 0",
+    "scores": {
+      "google/gemma-2-9b-it": 0.259375,
+      "mistralai/Ministral-8B-Instruct-2410": 0.31640625,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.15390625000000002,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.13906249999999998,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0
+    }
+  },
+  {
+    "question": "Write a python function to find the sum of the per-digit difference between two integers.\nYour code should pass these tests:\n\nassert digit_distance_nums(1,2) == 1\nassert digit_distance_nums(23,56) == 6\nassert digit_distance_nums(123,256) == 7",
+    "scores": {
+      "google/gemma-2-9b-it": 0.5787109375,
+      "mistralai/Ministral-8B-Instruct-2410": 1.0,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 1.0,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.830517578125,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.3271484375
+    }
+  },
+  {
+    "question": "Write a function which returns nth catalan number.\nYour code should pass these tests:\n\nassert catalan_number(10)==16796\nassert catalan_number(9)==4862\nassert catalan_number(7)==429",
+    "scores": {
+      "google/gemma-2-9b-it": 1.0,
+      "mistralai/Ministral-8B-Instruct-2410": 1.0,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.7688720703125,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.02158203125
+    }
+  },
+  {
+    "question": "Write a python function to find the sum of the product of consecutive binomial co-efficients.\nYour code should pass these tests:\n\nassert sum_Of_product(3) == 15\nassert sum_Of_product(4) == 56\nassert sum_Of_product(1) == 1",
+    "scores": {
+      "google/gemma-2-9b-it": 0.69853515625,
+      "mistralai/Ministral-8B-Instruct-2410": 0.68046875,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.14339599609375,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.177734375
+    }
+  },
+  {
+    "question": "Write a function to remove leading zeroes from an ip address.\nYour code should pass these tests:\n\nassert removezero_ip(\"216.08.094.196\")==('216.8.94.196')\nassert removezero_ip(\"12.01.024\")==('12.1.24')\nassert removezero_ip(\"216.08.094.0196\")==('216.8.94.196')",
+    "scores": {
+      "google/gemma-2-9b-it": 0.45263671875,
+      "mistralai/Ministral-8B-Instruct-2410": 0.65107421875,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.16660156250000002,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0
+    }
+  },
+  {
+    "question": "Write a function to create a list of N empty dictionaries.\nYour code should pass these tests:\n\nassert empty_list(5)==[{},{},{},{},{}]\nassert empty_list(6)==[{},{},{},{},{},{}]\nassert empty_list(7)==[{},{},{},{},{},{},{}]",
+    "scores": {
+      "google/gemma-2-9b-it": 1.0,
+      "mistralai/Ministral-8B-Instruct-2410": 1.0,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 1.0,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 1.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.28203125
+    }
+  },
+  {
+    "question": "Write a python function to check whether a list is sublist of another or not.\nYour code should pass these tests:\n\nassert is_Sub_Array([1,4,3,5],[1,2]) == False\nassert is_Sub_Array([1,2,1],[1,2,1]) == True\nassert is_Sub_Array([1,0,2,2],[2,2,0]) ==False",
+    "scores": {
+      "google/gemma-2-9b-it": 0.626171875,
+      "mistralai/Ministral-8B-Instruct-2410": 0.5349609375,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.10859375,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.26865234375
+    }
+  },
+  {
+    "question": "Write a python function to check whether the given number is even or not.\nYour code should pass these tests:\n\nassert is_Even(1) == False\nassert is_Even(2) == True\nassert is_Even(3) == False",
+    "scores": {
+      "google/gemma-2-9b-it": 0.95,
+      "mistralai/Ministral-8B-Instruct-2410": 0.404345703125,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.0,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.07929687499999999,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.03740234375
+    }
+  },
+  {
+    "question": "Write a function to find the sum of the largest contiguous sublist in the given list.\nYour code should pass these tests:\n\nassert max_sub_array_sum([-2, -3, 4, -1, -2, 1, 5, -3], 8) == 7\nassert max_sub_array_sum([-3, -4, 5, -2, -3, 2, 6, -4], 8) == 8\nassert max_sub_array_sum([-4, -5, 6, -3, -4, 3, 7, -5], 8) == 10",
+    "scores": {
+      "google/gemma-2-9b-it": 1.0,
+      "mistralai/Ministral-8B-Instruct-2410": 0.99609375,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.35556640625,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0
+    }
+  },
+  {
+    "question": "Write a function to convert a list to a tuple.\nYour code should pass these tests:\n\nassert list_tuple([5, 10, 7, 4, 15, 3])==(5, 10, 7, 4, 15, 3)\nassert list_tuple([2, 4, 5, 6, 2, 3, 4, 4, 7])==(2, 4, 5, 6, 2, 3, 4, 4, 7)\nassert list_tuple([58,44,56])==(58,44,56)",
+    "scores": {
+      "google/gemma-2-9b-it": 0.413427734375,
+      "mistralai/Ministral-8B-Instruct-2410": 0.37646484375,
+      "Qwen/Qwen2.5-Coder-7B-Instruct": 0.1015625,
+      "Qwen/Qwen2.5-Math-7B-Instruct": 0.0,
+      "ContactDoctor/Bio-Medical-Llama-3-8B": 0.0
+    }
+  }
+]

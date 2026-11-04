@@ -1,0 +1,12 @@
+# training artifacts (weights about 1.1G per group, not tracked; regenerate with scripts/train.sh)
+runs/
+
+# intermediate output of prepare_data.sh (can be rebuilt at any time)
+data/merged/
+
+# python
+__pycache__/
+*.py[cod]
+
+# logs
+*.log
